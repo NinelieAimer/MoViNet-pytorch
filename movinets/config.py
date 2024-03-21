@@ -49,7 +49,7 @@ _C.MODEL.MoViNetA0.name = "A0"
 _C.MODEL.MoViNetA0.weights = "https://github.com/Atze00/MoViNet-pytorch/blob/main/weights/modelA0_statedict_v3?raw=true"
 _C.MODEL.MoViNetA0.stream_weights = "https://github.com/Atze00/MoViNet-pytorch/blob/main/weights/modelA0_stream_statedict_v3?raw=true"
 _C.MODEL.MoViNetA0.conv1 = CN()
-fill_conv(_C.MODEL.MoViNetA0.conv1, 3,8,(1,3,3),(1,2,2),(0,1,1))
+fill_conv(_C.MODEL.MoViNetA0.conv1, 1,8,(1,3,3),(1,2,2),(0,1,1))
 
 
 _C.MODEL.MoViNetA0.blocks = [ [CN()],
